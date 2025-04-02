@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#cart-sidebar {
+    animation: opensidebar 0.5s 1;
+}
+@keyframes opensidebar {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
