@@ -6,6 +6,8 @@ export interface Product {
   oldPrice: number
   price: number
   color: string
+  quantity: number
+  feedback: string
   availableColors?: string[] // Thêm mảng các màu có sẵn
   availableSizes?: string[] // Thêm mảng các kích thước có sẵn
   stockStatus: boolean

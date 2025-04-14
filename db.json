@@ -1,6 +1,453 @@
 {
-  "carts": [],
-  "users": [],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 5,
+      "Items": [
+        {}
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "Items": []
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "Items": []
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "Items": []
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 5,
+      "items": [
+        {
+          "productId": {
+            "id": 1,
+            "name": "Iphone 16",
+            "categoryId": 1,
+            "oldPrice": 30000000,
+            "price": 26000000,
+            "color": "black",
+            "stockStatus": true,
+            "rating": 5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP001",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 16 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "images": [
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569702/%E1%BB%8BPhone%2016%20Pro%20TCBC%201.jpg",
+              "https://kenh14cdn.com/203336854389633024/2024/9/9/screenshot-2024-09-10-at-014110-1725909208181-17259092089661151612735.png"
+            ],
+            "quantity": 10
+          },
+          "quantity": 4,
+          "price": 26000000,
+          "color": "black",
+          "size": "N/A",
+          "productName": "Iphone 16",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        },
+        {
+          "productId": {
+            "id": 2,
+            "name": "Iphone 15",
+            "categoryId": 1,
+            "oldPrice": 25000000,
+            "price": 22000000,
+            "color": "blue",
+            "stockStatus": true,
+            "rating": 4.5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP002",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 15 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "quantity": 10
+          },
+          "quantity": 2,
+          "price": 22000000,
+          "color": "blue",
+          "size": "N/A",
+          "productName": "Iphone 15",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        }
+      ],
+      "totalAmount": 148000000,
+      "shippingAddress": {
+        "fullName": "Minh Nguyen Kim",
+        "phone": "0372674691",
+        "address": "Minh Khai Bac Tu Liem",
+        "city": "Hà Nội",
+        "district": "Quận 1",
+        "ward": "Phường 1",
+        "notes": ""
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-04-14T09:15:35.376Z",
+      "updatedAt": "2025-04-14T09:15:35.376Z"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "items": [
+        {
+          "productId": {
+            "id": 1,
+            "name": "Iphone 16",
+            "categoryId": 1,
+            "oldPrice": 30000000,
+            "price": 26000000,
+            "color": "black",
+            "stockStatus": true,
+            "rating": 5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP001",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 16 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "images": [
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569702/%E1%BB%8BPhone%2016%20Pro%20TCBC%201.jpg",
+              "https://kenh14cdn.com/203336854389633024/2024/9/9/screenshot-2024-09-10-at-014110-1725909208181-17259092089661151612735.png"
+            ],
+            "quantity": 10
+          },
+          "quantity": 1,
+          "price": 26000000,
+          "color": "black",
+          "size": "N/A",
+          "productName": "Iphone 16",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        },
+        {
+          "productId": {
+            "id": 2,
+            "name": "Iphone 15",
+            "categoryId": 1,
+            "oldPrice": 25000000,
+            "price": 22000000,
+            "color": "blue",
+            "stockStatus": true,
+            "rating": 4.5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP002",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 15 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "quantity": 10
+          },
+          "quantity": 1,
+          "price": 22000000,
+          "color": "blue",
+          "size": "N/A",
+          "productName": "Iphone 15",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        }
+      ],
+      "totalAmount": 48000000,
+      "shippingAddress": {
+        "fullName": "Minh Nguyen Kim",
+        "phone": "0372674691",
+        "address": "Minh Khai Bac Tu Liem",
+        "city": "Hà Nội",
+        "district": "Quận 1",
+        "ward": "Phường 5",
+        "notes": "Không"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-04-14T10:39:55.952Z",
+      "updatedAt": "2025-04-14T10:39:55.952Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "items": [
+        {
+          "productId": {
+            "id": 1,
+            "name": "Iphone 16",
+            "categoryId": 1,
+            "oldPrice": 30000000,
+            "price": 26000000,
+            "color": "black",
+            "stockStatus": true,
+            "rating": 5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP001",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 16 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "images": [
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569702/%E1%BB%8BPhone%2016%20Pro%20TCBC%201.jpg",
+              "https://kenh14cdn.com/203336854389633024/2024/9/9/screenshot-2024-09-10-at-014110-1725909208181-17259092089661151612735.png"
+            ],
+            "quantity": 10
+          },
+          "quantity": 1,
+          "price": 26000000,
+          "color": "black",
+          "size": "N/A",
+          "productName": "Iphone 16",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        }
+      ],
+      "totalAmount": 26000000,
+      "shippingAddress": {
+        "fullName": "Nguyễn Kim Minh",
+        "phone": "0372674691",
+        "address": "Minh Khai Bac Tu Liem",
+        "city": "Hà Nội",
+        "district": "Quận 1",
+        "ward": "Phường 1",
+        "notes": "Không"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-04-14T10:59:09.669Z",
+      "updatedAt": "2025-04-14T10:59:09.669Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "items": [
+        {
+          "productId": {
+            "id": 1,
+            "name": "Iphone 16",
+            "categoryId": 1,
+            "oldPrice": 30000000,
+            "price": 26000000,
+            "color": "black",
+            "stockStatus": true,
+            "rating": 5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP001",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 16 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "images": [
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569702/%E1%BB%8BPhone%2016%20Pro%20TCBC%201.jpg",
+              "https://kenh14cdn.com/203336854389633024/2024/9/9/screenshot-2024-09-10-at-014110-1725909208181-17259092089661151612735.png"
+            ],
+            "quantity": 10
+          },
+          "quantity": 1,
+          "price": 26000000,
+          "color": "black",
+          "size": "N/A",
+          "productName": "Iphone 16",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        },
+        {
+          "productId": {
+            "id": 2,
+            "name": "Iphone 15",
+            "categoryId": 1,
+            "oldPrice": 25000000,
+            "price": 22000000,
+            "color": "blue",
+            "stockStatus": true,
+            "rating": 4.5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP002",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 15 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "quantity": 10
+          },
+          "quantity": 1,
+          "price": 22000000,
+          "color": "blue",
+          "size": "N/A",
+          "productName": "Iphone 15",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        }
+      ],
+      "totalAmount": 48000000,
+      "shippingAddress": {
+        "fullName": "Minh Nguyen Kim",
+        "phone": "0372674691",
+        "address": "Minh Khai Bac Tu Liem",
+        "city": "Hà Nội",
+        "district": "Quận 1",
+        "ward": "Phường 1",
+        "notes": ""
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-04-14T11:04:56.277Z",
+      "updatedAt": "2025-04-14T11:04:56.277Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "items": [
+        {
+          "productId": {
+            "id": 1,
+            "name": "Iphone 16",
+            "categoryId": 1,
+            "oldPrice": 30000000,
+            "price": 26000000,
+            "color": "black",
+            "stockStatus": true,
+            "rating": 5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP001",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 16 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "images": [
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+              "https://cdnv2.tgdd.vn/mwg-static/common/News/1569702/%E1%BB%8BPhone%2016%20Pro%20TCBC%201.jpg",
+              "https://kenh14cdn.com/203336854389633024/2024/9/9/screenshot-2024-09-10-at-014110-1725909208181-17259092089661151612735.png"
+            ],
+            "quantity": 10
+          },
+          "quantity": 2,
+          "price": 26000000,
+          "color": "black",
+          "size": "N/A",
+          "productName": "Iphone 16",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        },
+        {
+          "productId": {
+            "id": 2,
+            "name": "Iphone 15",
+            "categoryId": 1,
+            "oldPrice": 25000000,
+            "price": 22000000,
+            "color": "blue",
+            "stockStatus": true,
+            "rating": 4.5,
+            "image": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
+            "sku": "SP002",
+            "brand": "Apple",
+            "weight": 500,
+            "description": "Iphone 15 đời mới",
+            "type": "simple",
+            "parent": 0,
+            "quantity": 10
+          },
+          "quantity": 1,
+          "price": 22000000,
+          "color": "blue",
+          "size": "N/A",
+          "productName": "Iphone 15",
+          "productImage": "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg"
+        }
+      ],
+      "totalAmount": 74000000,
+      "shippingAddress": {
+        "fullName": "Nguyễn Kim Minh",
+        "phone": "0372674691",
+        "address": "Huyện Lương Sơn",
+        "city": "Hồ Chí Minh",
+        "district": "Quận 1",
+        "ward": "Phường 1",
+        "notes": "che tên"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-04-14T11:24:51.830Z",
+      "updatedAt": "2025-04-14T11:24:51.830Z"
+    }
+  ],
+  "orderDetails": [],
+  "wishlists": [],
+  "users": [
+    {
+      "email": "minhnkph51915@gmaIl.com",
+      "password": "$2a$10$cMc9ZezkZ3bs4gefFYr9E.sHYVPKKVV7f2KXQ03k1EAWHoL4waufK",
+      "name": "Nguyễn Kim Minh",
+      "phone": "0372674691",
+      "role": "admin",
+      "createdAt": "2025-04-13T15:02:06.316Z",
+      "updatedAt": "2025-04-13T16:07:50.738Z",
+      "address": "Huyện Lương Sơn",
+      "avatar": "blob:http://localhost:5173/cc95d32a-2ec0-469a-ab39-b12c91300b5e",
+      "id": 1
+    },
+    {
+      "email": "minhnguyen1078@gmail.com",
+      "password": "$2a$10$wlZDJAW0TkTCk9TCNuLWm.MoYycJOccrx1MGFZPEwRroYz/4gFswe",
+      "name": "Nguyễn Kim Minh",
+      "phone": "0372674691",
+      "role": "admin",
+      "createdAt": "2025-04-13T15:04:15.283Z",
+      "updatedAt": "2025-04-13T18:00:09.688Z",
+      "address": "Minh Khai Bac Tu Liem",
+      "avatar": "blob:http://localhost:5173/55ec83c6-6bb9-4328-bc80-f4b1577d3de4",
+      "id": 2
+    },
+    {
+      "email": "hungpt@gmail.com",
+      "password": "$2a$10$Ne7lKUVVfx/17WU2MAo9/OYcyOJ6rn/rlzFznCn50Di3WFaqLumrO",
+      "name": "Phạm Thế Hưng",
+      "phone": "0123456789",
+      "role": "customer",
+      "createdAt": "2025-04-13T15:45:30.656Z",
+      "updatedAt": "2025-04-13T15:45:30.656Z",
+      "address": null,
+      "avatar": null,
+      "id": 3
+    },
+    {
+      "email": "minh@gmail.com",
+      "password": "$2a$10$wsSE9Q4enJXBftZZ4lEn.uFwFVpCdRXhFn1kcRgEncWN8eRXk3mdK",
+      "name": "Minh Nguyen Kim",
+      "phone": "0372674691",
+      "role": "customer",
+      "createdAt": "2025-04-14T02:37:00.832Z",
+      "updatedAt": "2025-04-14T10:44:10.645Z",
+      "address": "Minh Khai Bac Tu Liem",
+      "avatar": null,
+      "id": 4
+    },
+    {
+      "email": "minh3@gmail.com",
+      "password": "$2a$10$dsO3yKUe6WFgAYghUXtFQOnukM88JRuUiApVbEqq12p/1qdAfdvhG",
+      "name": "Minh Nguyen Kim",
+      "phone": "0372674691",
+      "role": "customer",
+      "createdAt": "2025-04-14T08:25:53.762Z",
+      "updatedAt": "2025-04-14T08:25:53.762Z",
+      "address": null,
+      "avatar": null,
+      "id": 5
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -22,7 +469,8 @@
         "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
         "https://cdnv2.tgdd.vn/mwg-static/common/News/1569702/%E1%BB%8BPhone%2016%20Pro%20TCBC%201.jpg",
         "https://kenh14cdn.com/203336854389633024/2024/9/9/screenshot-2024-09-10-at-014110-1725909208181-17259092089661151612735.png"
-      ]
+      ],
+      "quantity": 10
     },
     {
       "id": 2,
@@ -39,7 +487,8 @@
       "weight": 500,
       "description": "Iphone 15 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 3,
@@ -56,7 +505,8 @@
       "weight": 500,
       "description": "Iphone 14 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 4,
@@ -73,7 +523,8 @@
       "weight": 500,
       "description": "Iphone 13 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 5,
@@ -90,7 +541,8 @@
       "weight": 500,
       "description": "Iphone 12 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 6,
@@ -107,7 +559,8 @@
       "weight": 500,
       "description": "Iphone 11 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 7,
@@ -124,7 +577,8 @@
       "weight": 500,
       "description": "Iphone 10 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 8,
@@ -141,7 +595,8 @@
       "weight": 500,
       "description": "Iphone 8 đời mới",
       "type": "simple",
-      "parent": 0
+      "parent": 0,
+      "quantity": 10
     },
     {
       "id": 9,
@@ -180,6 +635,34 @@
         "https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
         "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRyoS9N5-23fVysBzw5ZIRuNxcCi0Luk67IKBTDhXxl5VUyvvOZsQNvgQFIbDvWAndqd9IrPR5IXuzTrTfXxSrUNqgUKBXXBh1-44qJ0jUEhtds064ktdcmEJ2SbeBxh3dB3Q&usqp=CAc"
       ]
+    },
+    {
+      "id": 11,
+      "name": "dự",
+      "categoryId": 1,
+      "quantity": 10,
+      "oldPrice": 100000,
+      "price": 10000,
+      "color": "yellow",
+      "availableColors": [
+        "black",
+        "green"
+      ],
+      "availableSizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "stockStatus": true,
+      "rating": 5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/210px-Manchester_United_FC_crest.svg.png",
+      "sku": "SP001",
+      "brand": "Apple",
+      "weight": 100,
+      "description": "đẹp",
+      "type": "simple",
+      "parent": 0
     }
   ],
   "categories": [

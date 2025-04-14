@@ -111,8 +111,8 @@ const CategoryItem: React.FC = () => {
                       onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
                       onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
                     />
-                    <button className="absolute bottom-0 left-0 w-full bg-black text-white py-2 rounded-b-md opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
-                      Add To Cart
+                    <button onClick={() => navigate(`/productdetail/${product.id}`)} className="absolute bottom-0 left-0 w-full bg-black text-white py-2 rounded-b-md opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+                      Xem thông tin chi tiết
                     </button>
                     {/* Discount Badge */}
                     {product.oldPrice && product.price && product.price < product.oldPrice && (

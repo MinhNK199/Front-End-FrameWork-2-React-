@@ -39,6 +39,7 @@ const ProductList: React.FC = () => {
   const columns: ColumnsType<Product> = [
     { title: 'ID', dataIndex: 'id', key: 'id', fixed: 'left', render: (id) => id ?? 'N/A' },
     { title: 'Tên sản phẩm', dataIndex: 'name', key: 'name' },
+    { title: 'Số lượng', dataIndex: 'quantity', key: 'quantity' },
     {
       title: 'Giá gốc (VND)',
       dataIndex: 'oldPrice',

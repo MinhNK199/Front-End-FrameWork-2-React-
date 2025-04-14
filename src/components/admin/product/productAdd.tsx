@@ -174,6 +174,17 @@ const ProductAdd: React.FC = () => {
         </Form.Item>
 
         <Form.Item
+          label="Số lượng"
+          name="quantity"
+          rules={[
+            { required: true, message: "Đánh giá không được để trống" },
+            { type: "number", min: 0, message: "Số lượng phải lớn hơn 0" },
+          ]}
+        >
+          <InputNumber min={0} style={{ width: "100%" }} />
+        </Form.Item>
+
+        <Form.Item
           label="Giá gốc (VND)"
           name="oldPrice"
           rules={[
