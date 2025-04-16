@@ -1,0 +1,27 @@
+{
+  "books": [],
+  "students": [
+    {
+      "name": "Nguyễn Kim Minh 2",
+      "class": "WD19319",
+      "age": "24",
+      "hometown": "Hòa Bình",
+      "id": 2
+    },
+    {
+      "name": "Nguyễn Kim Minh 6",
+      "class": "WD19319",
+      "age": "22",
+      "hometown": "Hòa Bình",
+      "id": 3
+    },
+    {
+      "name": "Nguyễn Kim Minh",
+      "class": "WD19319",
+      "age": "12",
+      "hometown": "Hòa Bình",
+      "id": 4
+    }
+  ],
+  "users": []
+}
